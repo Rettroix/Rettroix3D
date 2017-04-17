@@ -13,10 +13,33 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Base Engine">
+      <UniqueIdentifier>{f538c68e-b85e-44e2-90af-3ec3b99f78d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base Engine">
+      <UniqueIdentifier>{52c11fb8-0b70-4735-9712-15438dfa5bb6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="window.cpp">
+      <Filter>Source Files\Base Engine</Filter>
     </ClCompile>
+    <ClCompile Include="MainComponent.cpp">
+      <Filter>Source Files\Base Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="redundantcode.cpp">
+      <Filter>Source Files\Base Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="window.h">
+      <Filter>Header Files\Base Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainComponent.h">
+      <Filter>Header Files\Base Engine</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

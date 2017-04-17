@@ -1,0 +1,5 @@
+﻿  MainComponent.cpp
+  Source.cpp
+  window.cpp
+window.obj : error LNK2001: unresolved external symbol "private: static class sf::RenderWindow Window::mainWindow" (?mainWindow@Window@@0VRenderWindow@sf@@A)
+C:\Users\Elliot Anderson\Documents\GitHub\Rettroix3D\Rettroix3D\Rettroix3DEngine\Release\Rettroix3DEngine.exe : fatal error LNK1120: 1 unresolved externals

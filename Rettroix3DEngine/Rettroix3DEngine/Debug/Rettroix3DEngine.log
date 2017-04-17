@@ -1,3 +1,6 @@
-﻿  Source.cpp
+﻿  window.cpp
+  MainComponent.cpp
+  Generating Code...
+c:\users\elliot anderson\documents\github\rettroix3d\rettroix3d\rettroix3dengine\rettroix3dengine\window.cpp(34): warning C4715: 'Window::isCloseRequested': not all control paths return a value
   Rettroix3DEngine.vcxproj -> C:\Users\Elliot Anderson\Documents\GitHub\Rettroix3D\Rettroix3D\Rettroix3DEngine\Debug\Rettroix3DEngine.exe
   Rettroix3DEngine.vcxproj -> C:\Users\Elliot Anderson\Documents\GitHub\Rettroix3D\Rettroix3D\Rettroix3DEngine\Debug\Rettroix3DEngine.pdb (Full PDB)
