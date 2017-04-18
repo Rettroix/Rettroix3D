@@ -1,5 +1,6 @@
 #include "window.h"
 
+const float MAXFRAMERATE = 60;
 
 sf::RenderWindow Window::mainWindow;
 
@@ -8,11 +9,15 @@ sf::Event Window::event;
 void Window::createWindow(int width, int height, string title)
 {
   //using sfml to assign width height and title to it
+
   mainWindow.create(sf::VideoMode(width, height), title);
 }
 
 void Window::render()
 {
+  //setting a framerate limit
+  mainWindow.setFramerateLimit(MAXFRAMERATE);
+
   //simply display the window
   mainWindow.display();
 }
@@ -45,7 +50,12 @@ int Window::getHeight()
   return mainWindow.getSize().y;
 }
 
-
+void Window::dispose()
+{
+  //closes the render window and destroys all
+  //attached 
+  mainWindow.close();
+}
 
 Window::Window()
 {

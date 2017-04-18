@@ -17,6 +17,7 @@ public:
   static bool isCloseRequested();
   static int getWidth();
   static int getHeight();
+  static void dispose();
 
 
   Window();

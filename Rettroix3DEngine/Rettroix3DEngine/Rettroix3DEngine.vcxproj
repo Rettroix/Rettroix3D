@@ -166,11 +166,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameTime.cpp" />
     <ClCompile Include="MainComponent.cpp" />
     <ClCompile Include="redundantcode.cpp" />
     <ClCompile Include="window.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameTime.h" />
     <ClInclude Include="MainComponent.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="window.h" />

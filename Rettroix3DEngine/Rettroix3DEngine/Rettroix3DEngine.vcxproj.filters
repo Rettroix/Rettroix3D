@@ -30,6 +30,12 @@
     <ClCompile Include="redundantcode.cpp">
       <Filter>Source Files\Base Engine</Filter>
     </ClCompile>
+    <ClCompile Include="GameTime.cpp">
+      <Filter>Source Files\Base Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Base Engine</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="window.h">
@@ -39,6 +45,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MainComponent.h">
+      <Filter>Header Files\Base Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTime.h">
+      <Filter>Header Files\Base Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
       <Filter>Header Files\Base Engine</Filter>
     </ClInclude>
   </ItemGroup>
