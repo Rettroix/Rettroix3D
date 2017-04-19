@@ -1,6 +1,8 @@
 //Main Component is where everything starts
 #include "MainComponent.h"
-
+#include "window.h"
+#include "GameTime.h"
+#include "Input.h"
 // starts the clock
 sf::Clock theClock; 
                     
@@ -66,6 +68,7 @@ void MainComponent::run()
       stop();
     }
 
+    Input::update();
     game.input();
     game.update();
 
@@ -73,7 +76,7 @@ void MainComponent::run()
     //calling the restart of clock not only resets
     //the clock but also returns the elapsed time
     float framerate = 1/ (theClock.restart().asSeconds());
-    cout << framerate << endl;
+    //cout << framerate << endl;
     //then we render
     render();
   }

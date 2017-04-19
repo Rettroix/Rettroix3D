@@ -7,11 +7,11 @@ class Window
 private:
   static int test;
   //static sf::RenderWindow mainWindow;
-  static sf::RenderWindow mainWindow;
-  static sf::Event event;
 
 
 public:
+  static sf::RenderWindow mainWindow;
+
   static void createWindow(int width, int height, string title);
   static void render();
   static bool isCloseRequested();

@@ -1,8 +1,8 @@
 using namespace std;
 #include "stdafx.h"
-#include "window.h"
-#include "GameTime.h"
 #include "Game.h"
+
+
 
 
 class MainComponent

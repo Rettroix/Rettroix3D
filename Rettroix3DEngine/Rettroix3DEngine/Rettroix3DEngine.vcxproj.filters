@@ -36,6 +36,9 @@
     <ClCompile Include="Game.cpp">
       <Filter>Source Files\Base Engine</Filter>
     </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files\Base Engine</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="window.h">
@@ -51,6 +54,9 @@
       <Filter>Header Files\Base Engine</Filter>
     </ClInclude>
     <ClInclude Include="Game.h">
+      <Filter>Header Files\Base Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
       <Filter>Header Files\Base Engine</Filter>
     </ClInclude>
   </ItemGroup>

@@ -13,3 +13,4 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
 #include <SFML/Audio.hpp>
+#include <SFML/System/Vector2.hpp>
